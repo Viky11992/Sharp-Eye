@@ -1,0 +1,90 @@
+html body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+.main{
+    height:100%;
+    width: 100%;
+    background-color: grey;
+}
+.nav{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(28, 22, 22);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+}
+.box{
+    height: 30px;
+    width: 35px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.nav h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.center{
+    height: 90vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#bubble{
+    height: 25px;
+    width: 25px;
+    background-color: rgb(1, 0, 0);
+    color:white;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.nav h1{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    right: -70px;
+    color: aqua;
+}
+.vvv{
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    position: relative;
+    left: 200px;
+}
+.sss{
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    color: red;
+    position: relative;
+    bottom: 100px;
+    right: 200px;
+    font-size: 95px;
+}
